@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "therrasso-datasim_jd433"
+name = "therrasso-batch_scheduling_throughput_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告数据合成与仿真工程师·批处理调度与吞吐折中相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://therrasso.github.io"
-Repository = "https://github.com/therrasso/datasim_jd433"
-Issues = "https://github.com/therrasso/datasim_jd433/issues"
+Repository = "https://github.com/therrasso/batch_scheduling_throughput_pattern_locate"
+Issues = "https://github.com/therrasso/batch_scheduling_throughput_pattern_locate/issues"
 
 [project.scripts]
-datasim_jd433 = "datasim_jd433:main"
+batch_scheduling_throughput_pattern_locate = "batch_scheduling_throughput_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["datasim_jd433"]
+py-modules = ["batch_scheduling_throughput_pattern_locate"]

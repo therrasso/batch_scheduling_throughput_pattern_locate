@@ -1,11 +1,11 @@
-# datasim_jd433
+# batch_scheduling_throughput_pattern_locate
 
 **用规则在数据合成与仿真工程师·批处理调度与吞吐折中里定位可疑位置。**
 
-`datasim_jd433` —— 用一组明示的正则规则扫描输入，报告数据合成与仿真工程师·批处理调度与吞吐折中相关的命中行与片段
+`batch_scheduling_throughput_pattern_locate` —— 用一组明示的正则规则扫描输入，报告数据合成与仿真工程师·批处理调度与吞吐折中相关的命中行与片段
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`datasim_jd433.py` 拷走就能用
+- 单文件，`batch_scheduling_throughput_pattern_locate.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install therrasso-datasim_jd433
+pip install therrasso-batch_scheduling_throughput_pattern_locate
 ```
 
 装完直接用命令名调用：
 
 ```bash
-datasim_jd433 --help
+batch_scheduling_throughput_pattern_locate --help
 ```
 
-也可以不用安装，直接把 `datasim_jd433.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `batch_scheduling_throughput_pattern_locate.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ datasim_jd433 --help
 ## 用法
 
 ```bash
-python datasim_jd433.py --file input.txt
-python datasim_jd433.py --text "示例内容"
-python datasim_jd433.py --file input.txt --json
+python batch_scheduling_throughput_pattern_locate.py --file input.txt
+python batch_scheduling_throughput_pattern_locate.py --text "示例内容"
+python batch_scheduling_throughput_pattern_locate.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python datasim_jd433.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_datasim_jd433.py
+python test_batch_scheduling_throughput_pattern_locate.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_datasim_jd433.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/therrasso/datasim_jd433>
+- GitHub 仓库：<https://github.com/therrasso/batch_scheduling_throughput_pattern_locate>
 
 ---
 
@@ -79,7 +79,7 @@ python test_datasim_jd433.py
 therrasso 做数据合成与仿真工程师·批处理调度与吞吐折中相关的问题，方向对标阿里巴巴的实习数据合成与仿真工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://therrasso.github.io>
-- 仓库：<https://github.com/therrasso/datasim_jd433>
+- 仓库：<https://github.com/therrasso/batch_scheduling_throughput_pattern_locate>
 
 ## 许可
 
